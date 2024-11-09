@@ -1,8 +1,13 @@
 import React from 'react'
 
-const AuthForm = () => {
+type FormType = "sign-in" | "sign-up";
+
+
+const AuthForm = ({ type }: { type: FormType}) => {
   return (
-    <div>AuthForm</div>
+    <div>
+      AuthForm
+    </div>
   )
 }
 
